@@ -1,0 +1,92 @@
+body, html {
+    height: 100% !important;
+    background-color: #313340;
+}
+
+.container {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.container-center {
+    height: auto;
+    width: 80% !important;
+    background-color: #2C2D39;
+}
+
+.brand-index {
+    width: 120px;
+    height: 120px;
+}
+
+#ads-index {
+    width: 89%;
+    height: 180px;
+    background-color: #F6F6F6;
+}
+
+#search-input{
+    background-color: #F6F6F6;
+}
+
+#btn-search {
+    background-color: #484A57;
+    color: #AFAFAF;
+}
+
+#btn-search:hover {
+    background-color: #404152;
+}
+
+.container-results {
+    min-height: 90% !important;
+    width: 70% !important;
+    background-color: #2C2D39;
+}
+
+.ads-container {
+    min-width: 220px;
+    min-height: 90%;
+    height: 100%;
+    background-color: #2C2D39;
+}
+
+#brand-results {
+    width: 64px;
+    height: 64px;
+}
+
+#main-container {
+    height: 100%;
+}
+
+
+@media only screen and (max-width: 803px) {
+    .ads-container {
+        margin-top: 10px;
+        margin-left: 0 !important;
+        width: 70% !important;
+        height: 50px !important;
+    }
+}
+
+.result {
+    background-color: #393C4A;
+}
+
+.result:hover {
+    cursor: pointer;
+    background-color: #404152;
+}
+
+.r-title {
+    color: white;
+}
+
+.r-details {
+    color: white;
+}
+
+.pagination-results {
+    margin: auto;
+}
