@@ -9,8 +9,9 @@ body, html {
 }
 
 .container-center {
+    transition: 0.5s;
     height: auto;
-    width: 80% !important;
+    width: 80%;
     background-color: #2C2D39;
 }
 
@@ -42,6 +43,7 @@ body, html {
     min-height: 90% !important;
     width: 70% !important;
     background-color: #2C2D39;
+    transition: 0.4s;
 }
 
 .ads-container {
@@ -60,6 +62,17 @@ body, html {
     height: 100%;
 }
 
+@media only screen and (max-width: 771px) {
+    .container-center {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 515px){
+    .body {
+        width: 100% !important;
+    }
+}
 
 @media only screen and (max-width: 803px) {
     .ads-container {
@@ -89,4 +102,37 @@ body, html {
 
 .pagination-results {
     margin: auto;
+}
+
+@media only screen and (max-width: 803px) {
+    .ads-container {
+        min-height: 160px;
+    }
+}
+
+@media only screen and (max-width: 624px) {
+    .container-results {
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .container-results {
+        width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .container-results {
+        width: 100% !important;
+    }
+}
+
+#btn-search-results {
+    background-color: #484A57;
+    color: #AFAFAF;
+}
+
+#btn-search-results:hover {
+    background-color: #404152;
 }
